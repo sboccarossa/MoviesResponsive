@@ -1,0 +1,114 @@
+            .display-4 {
+                font-family: "Roboto", sans-serif;
+                font-size: 4.5rem;
+                font-weight: 700;
+                color: black;
+                line-height: 1.2;
+            }
+            
+            .jumbotron {
+                background-image: url("images/pop\ Corn.png");
+                background-color: #ecc60b;
+                background-size: 30%;
+                background-repeat: no-repeat;
+                background-position-x: right;
+                margin-right: 100px;
+            }
+            
+            img {
+                vertical-align: middle;
+                border: solid;
+                border-style: solid;
+            }
+            
+            #sottotitolo {
+                margin: 0;
+                font-family: "Roboto", sans-serif;
+                font-size: 1.5rem;
+                font-weight: 500;
+                line-height: 1.5;
+                color: black;
+                text-align: left;
+            }
+            
+            body {
+                margin: 0;
+                font-family: "Roboto", sans-serif;
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1;
+                color: black;
+                text-align: left;
+                padding-top: 30px;
+                background-color: #ecc60b;
+            }
+            
+            .w-100 {
+                width: 80%;
+                margin: 90px;
+                border-radius: .25rem;
+                border: solid 2px black;
+            }
+            
+            .card {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: #ecc60b;
+                background-clip: border-box;
+                border: 3px solid rgba(0, 0, 0, 22);
+                border-radius: .25rem;
+                float: left;
+                margin: 10px;
+            }
+            
+            .btn-primary {
+                color: #fff;
+                background-color: #0062cc;
+                border-color: #04070a;
+            }
+            
+            @media (min-width: 320px) {
+                .w-100 {
+                    width: 80%!important;
+                    margin-left: 30px;
+                    border-radius: .25rem;
+                    border: solid 2px black;
+                }
+                .card {
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    min-width: 0;
+                    word-wrap: break-word;
+                    background-color: #ecc60b;
+                    background-clip: border-box;
+                    border: 3px solid rgba(0, 0, 0, 22);
+                    border-radius: .25rem;
+                    margin: 30px;
+                }
+                .jumbotron {
+                    background-image: url("images/pop\ Corn.png");
+                    background-image: none;
+                    background-color: #ecc60b;
+                    background-size: 30%;
+                    background-repeat: no-repeat;
+                    background-position-x: right;
+                    margin-right: 100px
+                }
+            }
+            
+            @media (min-width: 760px) {
+                .jumbotron {
+                    background-image: url("images/pop\ Corn.png");
+                    background-color: #ecc60b;
+                    background-size: 25%;
+                    background-repeat: no-repeat;
+                    background-position-x: right;
+                    margin-right: 5px
+                }
+            }
